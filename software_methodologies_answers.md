@@ -17,7 +17,6 @@ Within each methodology there are various **design patterns** which provide furt
 | Type | Description | Example
 | ----------- | ----------- | -----------
 Low cohesion | A class does a great variety of actions | STAFF checkEmail() sendEmail() emailValidate() PrintLetter()
-
 High cohesion | The class is focused on what it should be doing and have only methods relating to the intention of the class | STAFF -salary -emailAddr   setSalary(newSalary) getSalary() setEmailAddr(newEmail) getEmailAddr()     
 
 **Coupling** refers to how related or dependent two classes (or modules) are toward each other.
@@ -25,7 +24,7 @@ High cohesion | The class is focused on what it should be doing and have only me
 Low coupled classes | Changing something major in one class should not affect the other
 High coupling | Making a change could require an entire system revamp
 
-REMEMBER : ***Good software design has **high cohesion** and **low coupling** ***
+REMEMBER : *Good software design has **high cohesion** and **low coupling** .*
 
 Reference : https://stackoverflow.com/questions/3085285/difference-between-cohesion-and-coupling
 
@@ -37,8 +36,6 @@ On the other hand, **bottom-up** model, focuses on designing an algorithm by beg
 
 The differences between *top-down* and *bottom-up* approach are as follows:
 
-|Differences|
-|------------|
 | Basis | Top-Down | Bottom-Up
 | ----------- | ----------- | ------------
 | Approach | Top-Down Approach is Theory-driven | Bottom-Up Approach is Data-Driven |
@@ -58,11 +55,11 @@ Reference: https://www.codingninjas.com/studio/library/top-down-vs-bottom-up-pro
 
 A class diagram would be most useful in ***object oriented design***. This design is the result of focusing attention not on the funcion performed by the program, but instead on the data that are to be manipulated by the program. In comparison with function oriented design where executes by using structured analysis and structured design like a data flow diagram, the object oriented design is carried out using UML. 
 
-Is so useful because an entire system can be modeled by a single class diagram using object oriented desing. Class diagrams are the blueprint of the system. Class diagrams can become in a snapshot that describes exactly how a system works, the relationships between system components at many levels, and how is planned to implement those components.
+Is useful because an entire system can be modeled by a single class diagram using object oriented desing. Class diagrams are the blueprint of the system. Class diagrams can become in a snapshot that describes exactly how a system works, the relationships between system components at many levels, and how is planned to implement those components.
 
 Reference:
-1. https://www.geeksforgeeks.org/difference-between-function-oriented-design-and-object-oriented-design/
-2. https://www.ibm.com/docs/en/rsm/7.5.0?topic=structure-class-diagrams
+-  https://www.geeksforgeeks.org/difference-between-function-oriented-design-and-object-oriented-design/
+- https://www.ibm.com/docs/en/rsm/7.5.0?topic=structure-class-diagrams
 
 
 4. What are the **four pillars of object oriented programming**? Give a single-sentence description of each.
@@ -76,6 +73,9 @@ Reference: https://www.codingninjas.com/studio/library/four-pillars-of-oops#:~:t
 
 5. What is the **strategy pattern**? How would its implementation differ between a functional and object oriented system?
 
+**Strategy pattern** is a behavioral design pattern that allows the behavior of an object to be selected at runtime. It is one of the Gang of Four (GoF) design patterns, which are widely used in object-oriented programming.
+
+The Strategy pattern is based on the idea of encapsulating a family of algorithms into separate classes that implement a common interface. The pattern consists of three main components: the Context, the Strategy, and the Concrete Strategy.
 
 
 
