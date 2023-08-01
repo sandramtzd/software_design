@@ -16,14 +16,12 @@ Cohesion refers to what the class (or module) can do. There is two types of cohe
 
 | Type | Description | Example
 | ----------- | ----------- | -----------
-Low cohesion | A class does a great variety of actions | -------------------
-| Staff           |
--------------------
-| checkEmail()    |
-| sendEmail()     |
-| emailValidate() |
-| PrintLetter()   |
--------------------
+Low cohesion | A class does a great variety of actions | STAFF 
+checkEmail()
+sendEmail()
+emailValidate()
+PrintLetter()
+
 High cohesion | The class is focused on what it should be doing and have only methods relating to the intention of the class | ----------------------------
 | Staff                   |
 ----------------------------
