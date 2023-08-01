@@ -115,6 +115,8 @@ However, the structured design have some disadvantages like:
 
 REFLEXION: In conclusion my decision was wrong after analysing the disadvantages, because in the end, I will not be able to achieve the main objective of the software system: "*online payment system that works just as well when ordering a takeaway as when buying a coat*". I choose it because will be bettter for me to understand and implement from the software engineer perspective but I forget that I'm not building a solution for me but for a user, a customer, which must be the focus of every software solution. 
 
+Reference: https://www.geeksforgeeks.org/difference-between-structured-and-object-oriented-analysis/
+
 
 
 
