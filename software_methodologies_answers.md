@@ -100,5 +100,23 @@ In the functional world we use just functions to implement the different discoun
 Reference : https://medium.com/@alityson.pratik/object-oriented-vs-functional-design-patterns-part-i-the-strategy-design-pattern-d78016afda5e
 
 
-### 6. Imagine your is creating a new online payment system. In order to gain maximum market share it can't be tied to a particular sector - it needs to work just as well when ordering a takeaway as when buying a new coat. Which design methodology would you suggest following? Give some justification for your decision.
+### 6. Imagine you are creating a new online payment system. In order to gain maximum market share it can't be tied to a particular sector - it needs to work just as well when ordering a takeaway as when buying a new coat. Which design methodology would you suggest following? Give some justification for your decision.
+
+Given the information above, a structured design approach can be applied to design a software which implements an online payment system. 
+
+The structured analysis will focus on the process involved in the payment of different items from different sectors. Furthermore, with the top-down approach from the structured design, we can break down the payment system into smaller and simpler parts by emphasizing a functional decomposition of a software system in independent functions. 
+
+Because we know the objective of our software system : *online payment system that works just as well when ordering a takeaway as when buying a coat*, we can use the system developement life cycle methodology for planning, analysing, designing, implementing and supporting instead of incremental or iterative methodology (used in OOP) to refine and extend the design.
+
+However, the structured design have some disadvantages like: 
+- Limited scalability. May become cumbersome when dealing with different sectors, in this case, if we want that the applications is available to all kind of sectors, from fast food restaurants to boutiques. 
+- Lack of object orientation. We will not have the benefits of encapsulation and reusability. During the design phase, maybe we will not be able to create interfaces that allow us to do payments in different sectors or carrying out with different actions applied to different items.
+- Limited ability to model complex relationships. Is less suitable for modeling large complex systems. An online payment system available to all kind of sectors suggest a complex system.
+
+REFLEXION: In conclusion my decision was wrong after analysing the disadvantages, because in the end, I will not be able to achieve the main objective of the software system: "*online payment system that works just as well when ordering a takeaway as when buying a coat*". I choose it because will be bettter for me to understand and implement from the software engineer perspective but I forget that I'm not building a solution for me but for a user, a customer, which must be the focus of every software solution. 
+
+
+
+
+
 
